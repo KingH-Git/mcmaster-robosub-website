@@ -1,3 +1,4 @@
+
 let userConfig = undefined;
 try {
   userConfig = await import("./v0-user-next.config");
@@ -7,8 +8,6 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // Enables static export for GitHub Pages
-  basePath: "/mcmaster-robosub-website", //  Change this to match your GitHub repo name
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -16,7 +15,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true, //  Prevents Next.js image optimization issues
+    // Optional: for image optimization
+    unoptimized: false,
   },
   experimental: {
     webpackBuildWorker: true,

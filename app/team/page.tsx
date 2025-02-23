@@ -22,21 +22,21 @@ import KareemImage from "@/app/assets/Kareem.jpeg"
 
 // Team members list with imported images
 const teamMembers = [
-  { name: "Erion Keka", role: "Founder", image: ErionImage, }, // Fixing alignment
+  { name: "Erion Keka", role: "Co-Founder", image: ErionImage, }, // Fixing alignment
   { name: "Haris Ali", role: "Co-Founder", image: HarisImage },
-  { name: "Humza Noor", role: "Machine Learning Lead", image: HumzaImage },
+  { name: "Humza Noor", role: "SWE/ML Lead", image: HumzaImage },
   { name: "Mohamed Sabri", role: "Vice President", image: SabriImage },
   { name: "Amna Khan", role: "Vice President", image: AmnaImage },
-  { name: "Abdurahman", role: "Secretary", image: AbduImage },
+  { name: "Abdurahman", role: "Administrator", image: AbduImage },
   { name: "Nivindu", role: "Secretary", image: NivinduImage },
-  { name: "Omar", role: "Software Lead", image: OmarImage },
-  { name: "Zayed", role: "Software Lead", image: ZayedImage },
+  { name: "Omar", role: "SWE/ML Lead", image: OmarImage },
+  { name: "Zayed", role: "SWE/ML Lead", image: ZayedImage },
   { name: "Jacob", role: "Mechanical Lead", image: JacobImage },
   { name: "Fares", role: "Mechanical Lead", image: FaresImage },
   { name: "Teo", role: "Mechanical Lead", image: TeoImage },
   { name: "Charlotte", role: "Electrical Lead", image: CharlotteImage },
   { name: "Kareem", role: "Electrical Lead", image: KareemImage },
-  { name: "Chantelle", role: "Marketing Lead", image: ChantelleImage },
+  { name: "Chantalle", role: "Marketing Lead", image: ChantelleImage },
 ];
 
 export default function Team() {

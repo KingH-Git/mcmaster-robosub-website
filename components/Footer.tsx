@@ -41,16 +41,36 @@ const Footer = () => {
           <div className="w-full md:w-1/3">
             <h3 className="text-xl font-bold mb-2 text-mcmaster-red">Connect With Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-cool-grey hover:text-neon-cyan transition-colors duration-300">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cool-grey hover:text-neon-cyan transition-colors duration-300"
+              >
                 <FaFacebookF size={24} />
               </a>
-              <a href="#" className="text-cool-grey hover:text-neon-cyan transition-colors duration-300">
+              <a
+                href="https://x.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cool-grey hover:text-neon-cyan transition-colors duration-300"
+              >
                 <FaTwitter size={24} />
               </a>
-              <a href="#" className="text-cool-grey hover:text-neon-cyan transition-colors duration-300">
+              <a
+                href="https://www.instagram.com/macrobosub/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cool-grey hover:text-neon-cyan transition-colors duration-300"
+              >
                 <FaInstagram size={24} />
               </a>
-              <a href="#" className="text-cool-grey hover:text-neon-cyan transition-colors duration-300">
+              <a
+                href="https://www.linkedin.com/company/mcmaster-robo-sub/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cool-grey hover:text-neon-cyan transition-colors duration-300"
+              >
                 <FaLinkedinIn size={24} />
               </a>
             </div>
@@ -73,4 +93,3 @@ const Footer = () => {
 }
 
 export default Footer
-
