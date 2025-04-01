@@ -8,14 +8,16 @@ import ParticleBackground from "@/components/ParticleBackground"
 
 // Local asset usage
 import PCBLogo from "@/app/assets/PCB_lib.jpg"
+import SolidWorksLogo from "@/app/assets/SolidWorks-Logo.png"
+import AltiumLogo from "@/app/assets/2560px-Altium_Logo.png"
 
 const AdvancedSubmarineScene = dynamic(() => import("@/components/Submarine3D"), { ssr: false })
 
 // Sponsor logos
 const sponsors = [
   { name: "PCB Libraries", logo: PCBLogo },
-  { name: "Sponsor 2", logo: "/placeholder-logo.svg" },
-  { name: "Sponsor 3", logo: "/placeholder-logo.svg" },
+  { name: "SolidWorks", logo: SolidWorksLogo },
+  { name: "Altium", logo: AltiumLogo },
   { name: "Sponsor 4", logo: "/placeholder-logo.svg" },
 ]
 

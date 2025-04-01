@@ -7,7 +7,7 @@ import Image from "next/image"
 import ErionImage from "@/app/assets/Erion.png";
 import HarisImage from "@/app/assets/Haris.jpeg";
 import HumzaImage from "@/app/assets/Humza.png";
-import SabriImage from "@/app/assets/Sabri.jpg";
+import SabriImage from "@/app/assets/sabri_2.jpg";
 import AmnaImage from "@/app/assets/Amna.jpeg";
 import AbduImage from "@/app/assets/Abdu.jpeg";
 import NivinduImage from "@/app/assets/Nivindu.jpeg";
@@ -28,7 +28,7 @@ const teamMembers = [
   { name: "Mohamed Sabri", role: "Vice President", image: SabriImage },
   { name: "Amna Khan", role: "Vice President", image: AmnaImage },
   { name: "Abdurahman", role: "Administrator", image: AbduImage },
-  { name: "Nivindu", role: "Secretary", image: NivinduImage },
+  { name: "Nivindu", role: "Administrator", image: NivinduImage },
   { name: "Omar", role: "SWE/ML Lead", image: OmarImage },
   { name: "Zayed", role: "SWE/ML Lead", image: ZayedImage },
   { name: "Jacob", role: "Mechanical Lead", image: JacobImage },
