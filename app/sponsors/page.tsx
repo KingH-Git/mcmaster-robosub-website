@@ -35,7 +35,7 @@ Company: ${formData.company}
 Message:
 ${formData.message}
    `)
-    window.location.href = `mailto:macrobosub@mcmaster.ca?subject=${subject}&body=${body}`
+    window.location.href = `mailto:robosub@mcmaster.ca?subject=${subject}&body=${body}`
   }
 
   return (

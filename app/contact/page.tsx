@@ -36,10 +36,10 @@ export default function Contact() {
             <div className="flex items-center mb-8">
               <FaEnvelope className="text-neon-cyan mr-4 text-2xl" />
               <a
-                href="mailto:macrobosub@gmail.com"
+                href="mailto:robosub@mcmaster.ca"
                 className="text-cool-grey hover:text-neon-cyan transition-colors duration-300"
               >
-                macrobosub@gmail.com
+                robosub@mcmaster.ca
               </a>
             </div>
             <h3 className="text-xl font-bold text-neon-cyan mb-4">Follow Us</h3>
